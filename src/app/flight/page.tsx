@@ -135,7 +135,7 @@ export default function FlightSearch() {
             <form onSubmit={handleSubmit(onSubmit)}>
               <div className="flex justify-between">
                 <div>
-                  <h1 className="text-xl font-bold">FlightSearch</h1>
+                  <h1 className="text-xl font-bold">Flight Search</h1>
                 </div>
 
                 <div >

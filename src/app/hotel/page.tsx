@@ -106,7 +106,17 @@ export default function HotelSearch() {
                     showForm ?
                         <div className="w-full rounded-lg p-5">
                             <form onSubmit={handleSubmit(onSubmit)}>
-                                <h1 className="text-xl font-bold">HotelSearch</h1>
+
+
+                                <div className="flex justify-between">
+                                    <div>
+                                        <h1 className="text-xl font-bold">Hotel Search</h1>
+                                    </div>
+
+                                    <div >
+                                        <Button className="text-white" onClick={() => store.setShowForm(false)}>Close</Button>
+                                    </div>
+                                </div>
 
                                 <div className="flex gap-5">
 
