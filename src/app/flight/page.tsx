@@ -51,7 +51,7 @@ export default function FlightSearch() {
         locale: 'en-US'
       },
       headers: {
-        'X-RapidAPI-Key': '01dc28638fmsh10164def782334dp162edcjsnac15fe4aee6a',
+        'X-RapidAPI-Key': 'baf994f703msha94b39d4a450f75p138b7ejsn88e6f100a56f',
         'X-RapidAPI-Host': 'sky-scrapper1.p.rapidapi.com'
       }
     };
@@ -66,7 +66,7 @@ export default function FlightSearch() {
         locale: 'en-US'
       },
       headers: {
-        'X-RapidAPI-Key': '01dc28638fmsh10164def782334dp162edcjsnac15fe4aee6a',
+        'X-RapidAPI-Key': 'baf994f703msha94b39d4a450f75p138b7ejsn88e6f100a56f',
         'X-RapidAPI-Host': 'sky-scrapper1.p.rapidapi.com'
       }
     };
@@ -104,7 +104,7 @@ export default function FlightSearch() {
           locale: 'en-US'
         },
         headers: {
-          'X-RapidAPI-Key': '01dc28638fmsh10164def782334dp162edcjsnac15fe4aee6a',
+          'X-RapidAPI-Key': 'baf994f703msha94b39d4a450f75p138b7ejsn88e6f100a56f',
           'X-RapidAPI-Host': 'sky-scrapper1.p.rapidapi.com'
         }
       };

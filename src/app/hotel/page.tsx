@@ -51,9 +51,9 @@ export default function HotelSearch() {
             url: 'https://booking-com15.p.rapidapi.com/api/v1/hotels/searchDestination',
             params: { query: payload?.city },
             headers: {
-                'X-RapidAPI-Key': 'be9e4ad484msh1d9d8e803eaf4a3p10d6acjsnf18e8550e5e0',
+                'X-RapidAPI-Key': '6e78060eb5msh12b56c681e119c3p1df058jsn9ccff882ac46',
                 'X-RapidAPI-Host': 'booking-com15.p.rapidapi.com'
-            }
+              }
         };
 
         try {
@@ -78,9 +78,9 @@ export default function HotelSearch() {
                     currency_code: 'AED'
                 },
                 headers: {
-                    'X-RapidAPI-Key': 'be9e4ad484msh1d9d8e803eaf4a3p10d6acjsnf18e8550e5e0',
+                    'X-RapidAPI-Key': '6e78060eb5msh12b56c681e119c3p1df058jsn9ccff882ac46',
                     'X-RapidAPI-Host': 'booking-com15.p.rapidapi.com'
-                }
+                  }
             };
 
             const response1: any = await axios.request(options1);
